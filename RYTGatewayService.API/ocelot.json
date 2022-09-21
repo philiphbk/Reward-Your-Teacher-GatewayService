@@ -1,0 +1,43 @@
+{
+  "Routes": [
+  
+
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "users",
+      "Config": [
+        {
+          "Name": "RYT User Service API",
+          "Version": "v1",
+          "Url": "/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "notification",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "RYT Notification Service API",
+          "Version": "v1",
+          "Url": "/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "wallet",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "RYT Wallet Service API",
+          "Version": "v1",
+          "Url": "/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost"
+  }
+}
